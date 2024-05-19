@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UnityProject\\UITest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|E:\\UnityProject\\UITest\\assets\\ligamentsimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|solutionrelative:assets\\ligamentsimulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|e:\\unityproject\\uitest\\assets\\axisgizmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|solutionrelative:assets\\axisgizmo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|E:\\UnityProject\\UITest\\assets\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{614A1FC4-CBDF-52ED-5303-75F96B2E3C60}|Assembly-CSharp.csproj|solutionrelative:assets\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AxisGizmo.cs",
+              "DocumentMoniker": "E:\\UnityProject\\UITest\\Assets\\AxisGizmo.cs",
+              "RelativeDocumentMoniker": "Assets\\AxisGizmo.cs",
+              "ToolTip": "E:\\UnityProject\\UITest\\Assets\\AxisGizmo.cs",
+              "RelativeToolTip": "Assets\\AxisGizmo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T10:46:00.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "E:\\UnityProject\\UITest\\Assets\\ModelController.cs",
+              "RelativeDocumentMoniker": "Assets\\ModelController.cs",
+              "ToolTip": "E:\\UnityProject\\UITest\\Assets\\ModelController.cs",
+              "RelativeToolTip": "Assets\\ModelController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAawNcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T11:29:05.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LigamentSimulation.cs",
+              "DocumentMoniker": "E:\\UnityProject\\UITest\\Assets\\LigamentSimulation.cs",
+              "RelativeDocumentMoniker": "Assets\\LigamentSimulation.cs",
+              "ToolTip": "E:\\UnityProject\\UITest\\Assets\\LigamentSimulation.cs",
+              "RelativeToolTip": "Assets\\LigamentSimulation.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAawHoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:05:50.586Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
