@@ -151,12 +151,12 @@ public class ModelController : MonoBehaviour
             model2 = GameObject.Find(name2).transform.GetChild(0).gameObject;
 
             Vector3 BonescaleFactor = new Vector3(5, 5, 5);
-            Vector3 SpawnscaleFactor = new Vector3(0.07f, 0.07f, 0.07f);
+            Vector3 SpawnscaleFactor = new Vector3(0.06f, 0.06f, 0.06f);
             Vector3 rotationAngles = new Vector3(-90, 0, 0);
 
-            Vector3 newPosition1 = new Vector3(1.222f, -4.001f, 0.476f);
-            Vector3 newPosition2 = new Vector3(2.87f, -3.91f, -0.11f);
-
+            Vector3 newPosition1 = new Vector3(2.87f, -3.91f, -0.11f);
+            Vector3 newPosition2 = new Vector3(1.222f, -4.001f, 0.476f);
+            
             Model_Set(model1, "Bone1", BonescaleFactor, rotationAngles, newPosition1);
             Model_Set(model2, "Bone2", BonescaleFactor, rotationAngles, newPosition2);
 
@@ -175,9 +175,13 @@ public class ModelController : MonoBehaviour
 
             FirstSphere.transform.localScale = SpawnscaleFactor;
             SecondSphere.transform.localScale = SpawnscaleFactor;
-
             FirstSphere.transform.eulerAngles = rotationAngles;
             SecondSphere.transform.eulerAngles = rotationAngles;
+
+            SphereCollider FirstSpheresphereCollider = FirstSphere.GetComponent<SphereCollider>();
+            SphereCollider SecondSpheresphereCollider = SecondSphere.GetComponent<SphereCollider>();
+            FirstSpheresphereCollider.enabled = false;
+            SecondSpheresphereCollider.enabled = false;
 
             Rigidbody FirstSphererigidbody = FirstSphere.AddComponent<Rigidbody>();
             Rigidbody SecondSphererigidbody = SecondSphere.AddComponent<Rigidbody>();
@@ -187,8 +191,8 @@ public class ModelController : MonoBehaviour
             SecondSphererigidbody.useGravity = false;
             SecondSphererigidbody.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation;
 
-            Vector3 Init1 = new Vector3(0, 5, 0);
-            Vector3 Init2 = new Vector3(0.5f, 5, 0);
+            Vector3 Init1 = new Vector3(0.5f, 5, 0);
+            Vector3 Init2 = new Vector3(0, 5, 0);
             FirstSphere.transform.localPosition = Init1;
             SecondSphere.transform.localPosition = Init2;
 

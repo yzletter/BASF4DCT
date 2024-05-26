@@ -91,6 +91,8 @@ public class NutBoneMovement : MonoBehaviour
             YmoveKeys[0] = new Keyframe(0, myTranform.position.y);
             ZmoveKeys[0] = new Keyframe(0, myTranform.position.z);
 
+
+
             // Ä¿±êÎ»ÖÃ
             for (int i = 1; i <= FileSize; i++)
             {
@@ -124,6 +126,8 @@ public class NutBoneMovement : MonoBehaviour
             XrotateKeys[0] = new Keyframe(0, myTranform.eulerAngles.x);
             YrotateKeys[0] = new Keyframe(0, myTranform.eulerAngles.y);
             ZrotateKeys[0] = new Keyframe(0, myTranform.eulerAngles.z);
+
+            XrotateKeys[0].value = -90;
 
             for (int i = 1; i <= FileSize; i++)
             {

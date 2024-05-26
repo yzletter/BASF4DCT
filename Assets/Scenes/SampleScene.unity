@@ -935,7 +935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fabff525115cee46af989f7363f1ed3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  origin: {x: -80, y: -80, z: -80}
+  origin: {x: 0, y: -8, z: 0}
   axisLength: 5000
   groundSize: {x: 5000, y: 0.1, z: 5000}
   groundColor: {r: 0, g: 0, b: 0, a: 1}
@@ -1455,7 +1455,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 42.398018
+  orthographic size: 5.39802
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1479,8 +1479,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.010808564, y: 0.8618603, z: -0.08004142, w: -0.50067294}
-  m_LocalPosition: {x: 96.61009, y: -27.72754, z: 35.11631}
+  m_LocalRotation: {x: -0.031070584, y: 0.93717545, z: -0.23788661, w: -0.25327224}
+  m_LocalPosition: {x: 3.821907, y: -1.0369484, z: 5.2367225}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

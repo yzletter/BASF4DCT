@@ -99,13 +99,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1634}
+      Script: {instanceID: 1576}
     - Class: 114
-      Script: {instanceID: 1638}
+      Script: {instanceID: 1636}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1936}
+      Script: {instanceID: 1648}
     - Class: 114
       Script: {instanceID: 2306}
     - Class: 114
@@ -167,6 +167,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 7106203af0f94828284c1c9ec2752178
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ModelController
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -281,12 +287,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionStayMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 7106203af0f94828284c1c9ec2752178
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ModelController
   - hash:
       serializedVersion: 2
       Hash: f854af586011dd194574f89546642e29

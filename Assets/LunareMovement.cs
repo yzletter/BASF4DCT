@@ -125,6 +125,8 @@ public class LunareMovement : MonoBehaviour
             YrotateKeys[0] = new Keyframe(0, myTranform.eulerAngles.y);
             ZrotateKeys[0] = new Keyframe(0, myTranform.eulerAngles.z);
 
+            XrotateKeys[0].value = -90;
+
             for (int i = 1; i <= FileSize; i++)
             {
                 targetRotation = new Vector3(nums[i - 1, 0], nums[i - 1, 1], nums[i - 1, 2]);
