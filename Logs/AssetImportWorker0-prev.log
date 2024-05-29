@@ -1,0 +1,376 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 16291 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProject/BASF4DCT
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65170
+Successfully changed project path to: E:/UnityProject/BASF4DCT
+E:/UnityProject/BASF4DCT
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11080] Host "[IP] 192.168.106.1 [Port] 0 [Flags] 2 [Guid] 2458942621 [EditorId] 2458942621 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-864QCF0Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11080] Host "[IP] 192.168.106.1 [Port] 0 [Flags] 2 [Guid] 2458942621 [EditorId] 2458942621 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-864QCF0Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 373.12 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.81 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path E:/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/BASF4DCT/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1700
+Initialize mono
+Mono path[0] = 'E:/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016899 seconds.
+- Loaded All Assemblies, in  1.245 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.375 seconds
+Domain Reload Profiling: 2609ms
+	BeginReloadAssembly (606ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (132ms)
+	LoadAllAssembliesAndSetupDomain (342ms)
+		LoadAssemblies (568ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (337ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (296ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (734ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.112 seconds
+Refreshing native plugins compatible for Editor in 33.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1942ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (307ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (250ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 103.97 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3347 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (96.3 KB). Loaded Objects now: 3808.
+Memory consumption went from 158.3 MB to 158.2 MB.
+Total: 2.872500 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.267200 ms MarkObjects: 2.115600 ms  DeleteObjects: 0.193000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29087.228384 seconds.
+  path: Assets/ModelController.cs
+  artifactKey: Guid(647a78a2692dc754a98c4ea66cdf31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModelController.cs using Guid(647a78a2692dc754a98c4ea66cdf31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02174fd38fe47fbb2a002473de8be0e') in 0.002643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 35.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+进程外导入时不支持 CreateSerializedAsset
+0x00007ff730cba45d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff730cbf529 (Unity) StackWalker::ShowCallstack
+0x00007ff731c90e11 (Unity) GetStacktrace
+0x00007ff73234b3ee (Unity) DebugStringToFile
+0x00007ff7320515ea (Unity) CreateSerializedAssetV2
+0x00007ff731fed375 (Unity) CreateSerializedAssetV2
+0x00007ff731f5857e (Unity) AssetDatabase::CreateSerializedAsset
+0x00007ff73044b9d9 (Unity) AssetDatabaseBindings::CreateAsset
+0x00007ff73013ce5d (Unity) AssetDatabase_CUSTOM_CreateAsset
+0x000001dd84afb555 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:CreateAsset (UnityEngine.Object,string)
+0x000001dd84af1ef3 (Mono JIT Code) TriLibCore.TriLibSettings:GetTriLibPreferences () (at E:/UnityProject/BASF4DCT/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:41)
+0x000001dd84af1d63 (Mono JIT Code) TriLibCore.TriLibSettings:GetBool (string) (at E:/UnityProject/BASF4DCT/Assets/TriLib/TriLibCore/Scripts/Misc/TriLibSettings.cs:64)
+0x000001dd84af1563 (Mono JIT Code) TriLibCore.Editor.CheckMappers:Initialize () (at E:/UnityProject/BASF4DCT/Assets/TriLib/TriLibCore/Editor/Scripts/CheckMappers.cs:18)
+0x000001dd847e0343 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff874664b7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff87459d204 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff8745a4b0f (mono-2.0-bdwgc) mono_runtime_try_invoke_array (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:5770)
+0x00007ff8744d4ea2 (mono-2.0-bdwgc) ves_icall_InternalInvoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall.c:4041)
+0x00007ff8744fb081 (mono-2.0-bdwgc) ves_icall_InternalInvoke_raw (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall-def.h:692)
+0x000001dd84ae12e0 (Mono JIT Code) (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo:InternalInvoke (System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+0x000001dd84ae0dab (Mono JIT Code) System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+0x000001dd84ae0c6e (Mono JIT Code) System.Reflection.MethodBase:Invoke (object,object[])
+0x000001dd84af06db (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+0x000001dd85e18e15 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff874664b7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff87459d204 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff87459d37c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff730bd3bf4 (Unity) scripting_method_invoke
+0x00007ff730bb1ae4 (Unity) ScriptingInvocation::Invoke
+0x00007ff730bac6f5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff730cfd41b (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadMethodAttributes
+0x00007ff730ba67eb (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff730b9c499 (Unity) MonoManager::FinalizeReload
+0x00007ff731f8bfba (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff731b398db (Unity) LoadUserAssemblies
+0x00007ff732038095 (Unity) <lambda_9fd93ece4936691877e09073f9324843>::operator()
+0x00007ff7320735e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff73205f58e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7320611f4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff73207198c (Unity) IOService::Run
+0x00007ff7320454ef (Unity) AssetImportWorkerClient::Run
+0x00007ff732010427 (Unity) RunAssetImportWorkerClientV2
+0x00007ff7320104ab (Unity) RunAssetImporterV2
+0x00007ff731813c1d (Unity) Application::InitializeProject
+0x00007ff731c9cc85 (Unity) WinMain
+0x00007ff73307d38e (Unity) __scrt_common_main_seh
+0x00007ff8eb137344 (KERNEL32) BaseThreadInitThunk
+0x00007ff8eb9626b1 (ntdll) RtlUserThreadStart
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> UnityEngine.UnityException: Creating asset at path Assets/TriLib/TriLibCore/Resources/TriLibSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at TriLibCore.TriLibSettings.GetTriLibPreferences () [0x00039] in E:\UnityProject\BASF4DCT\Assets\TriLib\TriLibCore\Scripts\Misc\TriLibSettings.cs:40 
+  at TriLibCore.TriLibSettings.GetBool (System.String key) [0x00000] in E:\UnityProject\BASF4DCT\Assets\TriLib\TriLibCore\Scripts\Misc\TriLibSettings.cs:64 
+  at TriLibCore.Editor.CheckMappers.Initialize () [0x00011] in E:\UnityProject\BASF4DCT\Assets\TriLib\TriLibCore\Editor\Scripts\CheckMappers.cs:18 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <17d9ce77f27a4bd2afb5ba32c9bea976>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <aec3a143be31489f8782c487d4d86edd>:0 
+0x00007ff730cba45d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff730cbf529 (Unity) StackWalker::ShowCallstack
+0x00007ff731c90e11 (Unity) GetStacktrace
+0x00007ff73234b3ee (Unity) DebugStringToFile
+0x00007ff72fd86da8 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001dd84afe853 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001dd84afe52b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001dd84afb920 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000001dd84afb7e5 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000001dd84af06fb (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+0x000001dd85e18e15 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ff874664b7e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff87459d204 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff87459d37c (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff730bd3bf4 (Unity) scripting_method_invoke
+0x00007ff730bb1ae4 (Unity) ScriptingInvocation::Invoke
+0x00007ff730bac6f5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff730cfd41b (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadMethodAttributes
+0x00007ff730ba67eb (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff730b9c499 (Unity) MonoManager::FinalizeReload
+0x00007ff731f8bfba (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff731b398db (Unity) LoadUserAssemblies
+0x00007ff732038095 (Unity) <lambda_9fd93ece4936691877e09073f9324843>::operator()
+0x00007ff7320735e2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff73205f58e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff7320611f4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff73207198c (Unity) IOService::Run
+0x00007ff7320454ef (Unity) AssetImportWorkerClient::Run
+0x00007ff732010427 (Unity) RunAssetImportWorkerClientV2
+0x00007ff7320104ab (Unity) RunAssetImporterV2
+0x00007ff731813c1d (Unity) Application::InitializeProject
+0x00007ff731c9cc85 (Unity) WinMain
+0x00007ff73307d38e (Unity) __scrt_common_main_seh
+0x00007ff8eb137344 (KERNEL32) BaseThreadInitThunk
+0x00007ff8eb9626b1 (ntdll) RtlUserThreadStart
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.544 seconds
+Domain Reload Profiling: 2307ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (468ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1545ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 30.06 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3307 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (96.6 KB). Loaded Objects now: 3812.
+Memory consumption went from 151.7 MB to 151.6 MB.
+Total: 2.710100 ms (FindLiveObjects: 0.268100 ms CreateObjectMapping: 0.246400 ms MarkObjects: 2.023500 ms  DeleteObjects: 0.171200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.49 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (46.3 KB). Loaded Objects now: 3812.
+Memory consumption went from 100.3 MB to 100.3 MB.
+Total: 4.686800 ms (FindLiveObjects: 0.400400 ms CreateObjectMapping: 0.381500 ms MarkObjects: 3.770800 ms  DeleteObjects: 0.132600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

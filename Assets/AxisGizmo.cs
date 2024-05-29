@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class WorldAxis : MonoBehaviour
 {
-    public Vector3 origin = new Vector3(0, -8, 0);
+    public Vector3 origin = new Vector3(0, -6.5f, -0.5f);
     public float axisLength = 5000f;
     public Vector3 groundSize = new Vector3(5000, 0.1f, 5000); // 地面大小
     public Color groundColor = Color.black; // 地面颜色

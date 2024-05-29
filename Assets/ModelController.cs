@@ -205,6 +205,9 @@ public class ModelController : MonoBehaviour
             Vector3 Delta = new Vector3(0.05f, 0.05f, 0.05f);
             GameObject Practicle = GameObject.CreatePrimitive(PrimitiveType.Sphere);
             Rigidbody rigidbody = Practicle.AddComponent<Rigidbody>();
+
+            Vector3 newPosition_p = new Vector3(100f, 100f, 100f);
+            Practicle.transform.position = newPosition_p;
             rigidbody.useGravity = true;
             rigidbody.mass = 0;
             rigidbody.constraints = RigidbodyConstraints.FreezeRotation;  // ¶³½áÐý×ª
